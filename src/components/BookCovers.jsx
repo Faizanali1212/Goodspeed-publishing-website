@@ -1,8 +1,8 @@
-import cover1 from '/images/4f58a0e77147742416ee1e4fd62a1c277862fc34.png';
-import cover2 from '/images/6e9cf9930dcd8436eef03b443b6aabac24d524fa.png';
-import cover3 from '/images/03644535a6311516adf6d6cea72165aaf0f2bd5c.png';
-import cover4 from '/images/de2a6350343b3af1cf8652d0d1bc9640670eecbd.png';
-import cover5 from '/images/94372d82429d9dd00ccbe91e1266924be4e1f0ac.png';
+const cover1 = '/images/Book-HIG-4 1.png';
+const cover2 = '/images/Book-HIG-3 2 (1).png';
+const cover3 = '/images/Book-HIG-2 2.png';
+const cover4 = '/images/Book-HIG-5 1.png';
+const cover5 = '/images/Book-HIG-1 2.png';
 
 const covers = [
     { img: cover1, author: 'Sylvia Johnson', bg: '#a020f0', rot: -12, mt: 105 },

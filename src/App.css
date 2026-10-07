@@ -414,12 +414,13 @@ body {
 .cover-card img {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 54%;
   width: 96%;
   transform: translate(-50%, -50%) rotate(var(--rot));
 }
 
 .cover-card.featured img {
+  left: 52%;
   width: 100%;
 }
 
