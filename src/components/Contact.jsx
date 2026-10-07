@@ -21,7 +21,7 @@ export default function Contact() {
     <section id="contact" className="container my-5">
       <div className="bg-lime rounded-5 position-relative overflow-hidden p-4 p-md-5">
         <img
-          src="/public/images/ddadds 1.png"
+          src="/images/ddadds 1.png"
           alt=""
           className="position-absolute top-0 start-0 d-none d-md-block"
           style={{ width: 280 }}

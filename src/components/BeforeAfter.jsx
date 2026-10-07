@@ -1,7 +1,7 @@
-import before1 from '/public/images/B1 1.jpg';
-import after1 from '/public/images/A1 1.jpg';
-import before2 from '/public/images/B1 1.jpg';
-import after2 from '/public/images/A1 1.jpg';
+import before1 from '/images/B1 1.jpg';
+import after1 from '/images/A1 1.jpg';
+import before2 from '/images/B1 1.jpg';
+import after2 from '/images/A1 1.jpg';
 
 const slides = [
   { before: before1, after: after1 },

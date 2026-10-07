@@ -5,7 +5,7 @@ export default function Hero() {
       <div className="row g-3 align-items-stretch">
         <div className="col-12 col-lg-6">
           <div className="hero-card p-4 p-md-5 h-100 d-flex flex-column justify-content-center">
-            <img className="hero-books-illustration" src="/public/images/2a2992ffcc6cd7dc2311571f3d92581bcfb1f40e.png" alt="books-icon" aria-hidden="true" />
+            <img className="hero-books-illustration" src="/images/2a2992ffcc6cd7dc2311571f3d92581bcfb1f40e.png" alt="books-icon" aria-hidden="true" />
             <div className="hero-card-content">
               <h1 className="hero-title mb-4">
                 Your Book Deserves to<br></br>

@@ -1,4 +1,4 @@
-import business from '../../public/images/728c518bb57ff75a804f77133c6d13ce9e7d9138 (1).png';
+import business from '/images/728c518bb57ff75a804f77133c6d13ce9e7d9138 (1).png';
 
 export const genres = [
   {

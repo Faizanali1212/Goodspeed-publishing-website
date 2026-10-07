@@ -12,13 +12,13 @@ export default function Stats() {
     <section className="container my-5">
       <div className="bg-card-dark text-white rounded-5 position-relative overflow-hidden p-4 p-md-5">
         <img
-          src="/public/images/55666666 1.png"
+          src="/images/55666666 1.png"
           alt=""
           className="position-absolute top-0 start-0 d-none d-md-block"
           style={{ marginTop: 80, height: 130 }}
         />
         <img
-          src="/public/images/Vector Smart Object222 2223.png"
+          src="/images/Vector Smart Object222 2223.png"
           alt=""
           className="position-absolute bottom-0 end-0 d-none d-md-block"
           style={{ width: 460 }}

@@ -1,4 +1,4 @@
-import authorImg from '../../public/images/Group 1000001803.png';
+const authorImg = '/images/Group 1000001803.png';
 export default function Testimonial() {
     return (
         <section className="container my-5">
@@ -15,13 +15,13 @@ export default function Testimonial() {
                     </div>
                     <div className="col-12 col-md-5">
                         <div className="quote-box">
-                            <span className="quote-mark quote-open"><img className='h-100' src="/public/images/Objects.png" alt="quote" /></span>
+                            <span className="quote-mark quote-open"><img className='h-100' src="/images/Objects.png" alt="quote" /></span>
                             <p className="spotlight-quote mb-0">
                                 With Goodspeed, I kept <span className="text-lime">100% rights</span> and
                                 reached <span className="text-lime">Top 10 in Amazon</span> Business.
                             </p>
                             <div className="author-line">AUTHOR A. SINGH</div>
-                            <span className="quote-mark quote-close"><img src="/public/images/Objects (1).png" alt="quote" /></span>
+                            <span className="quote-mark quote-close"><img src="/images/Objects (1).png" alt="quote" /></span>
                         </div>
                     </div>
                     <div className="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
