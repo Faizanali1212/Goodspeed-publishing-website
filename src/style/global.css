@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background: #f1f1f1;
+}
+:root {
+  --lime: #c5f04f;
+  --purple: #8b3fe8;
+  --dark: #222222;
+}
+
+.bg-lime {
+  background: var(--lime);
+}
+
+.bg-purple {
+  background: var(--purple);
+}
+
+.site-footer .footer-logo,
+.site-footer .footer-logo-mark,
+.site-footer .footer-heading {
+  color: #fff;
+}
+
+.site-footer .footer-bottom-mark,
+.site-footer .footer-bottom-logo {
+  color: var(--dark);
+}
+
+.site-header {
+  background: #ffffff;
+}
+
+.site-navbar {
+  width: calc(100% - 2rem);
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0.65rem 0;
+}
+
+.navbar-actions {
+  gap: 0.5rem;
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--dark);
+}
+
+.btn-lime,
+.btn-purple {
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.btn-lime {
+  background: var(--lime);
+  color: #000;
+  padding: 0.42rem 0.75rem !important;
+}
+
+.btn-lime:hover {
+  background: #b5e03f;
+  color: #000;
+}
+
+.btn-purple {
+  background: var(--purple);
+  color: #fff;
+  padding: 0.42rem 0.75rem !important;
+}
+
+.btn-purple:hover {
+  background: #7a2fd6;
+  color: #fff;
+}
+
+.hero-section {
+  width: calc(100% - 2rem);
+  max-width: 1500px;
+}
+
+.hero-card {
+  position: relative;
+  background: var(--lime);
+  border-radius: 32px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-card-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-books-illustration {
+  position: absolute;
+  right: -8px;
+  bottom: -8px;
+  width: 46%;
+  opacity: 0.16;
+}
+
+.hero-stats img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  color: var(--dark);
+}
+
+.hero-image-card {
+  position: relative;
+  background: #e2d9f7;
+  border-radius: 32px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.hero-image-card::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  width: 270px;
+  height: 210px;
+  top: -125px;
+  left: -70px;
+  border: 38px solid #9b5de5;
+  border-radius: 50%;
+  transform: rotate(18deg);
+  pointer-events: none;
+}
+
+.hero-image-background,
+.hero-image-accent {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.hero-image-background {
+  z-index: 0;
+}
+
+.hero-image-accent {
+  z-index: 1;
+  display: none;
+}
+
+.hero-image-card > img:last-child {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+
+  .hero-card,
+  .hero-image-card {
+    height: auto;
+    aspect-ratio: 1.1 / 1;
+  }
+}
+
+.btn-dark-custom {
+  background: var(--dark);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.btn-dark-custom:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media (max-width: 575.98px) {
+  .site-navbar {
+    width: calc(100% - 1rem);
+    padding: 0.55rem 0;
+  }
+
+  .site-navbar .navbar-brand {
+    gap: 0.35rem !important;
+    min-width: 0;
+  }
+
+  .site-navbar .navbar-brand i {
+    font-size: 1.6rem !important;
+  }
+
+  .brand-name {
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .navbar-actions {
+    gap: 0.3rem;
+  }
+
+  .navbar-actions .btn {
+    padding: 0.35rem 0.5rem !important;
+    font-size: 0.62rem;
+    white-space: nowrap;
+  }
+
+  .navbar-actions .btn i {
+    display: none;
+  }
+
+  .hero-section {
+    width: calc(100% - 1rem);
+    margin-top: 1.25rem !important;
+  }
+
+  .hero-card,
+  .hero-image-card {
+    border-radius: 24px;
+  }
+
+  .hero-card {
+    min-height: 430px;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 12vw, 2.8rem);
+  }
+
+  .hero-stats img {
+    width: 110px;
+  }
+
+  .hero-image-card {
+    min-height: 360px;
+  }
+
+  .hero-image-card > img:last-child {
+    object-position: center top;
+  }
+}
